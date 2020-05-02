@@ -1,0 +1,26 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "Some learning  practice",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwp1031/practice.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma-cli/bin/karma start --single-run",
+    "test-watch": "node node_modules/karma/bin/karma start --browsers=Chrome --single-run=false --auto-watch"
+  },
+  "keywords": [
+    "self-learning"
+  ],
+  "author": "Grace W Zhao",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "karma": "^5.0.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^3.1.1"
+  }
+}
